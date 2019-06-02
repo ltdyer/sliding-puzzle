@@ -31,7 +31,7 @@ public class SimplePuzzleState implements PuzzleState {
   
     public SimplePuzzleState(PuzzleState state1, Operation op, int pathLength, int[][] tableOfValues) {
       
-        //this is where the objects will be stored
+        //this is where the objects will be stored.
         this.state1 = state1;
         this.op = op;
         this.pathLength = pathLength;
