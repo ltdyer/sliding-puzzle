@@ -14,12 +14,9 @@ public class SimplePuzzleState implements PuzzleState {
     private int[][] tableOfValues;
 	
 	public SimplePuzzleState() {
-        //oh my god we need to initialize them all to null at first then use the methods to get the values I'm so stupid
+       
       
-        //honestly this is the biggest part of OO that I neevr get; i remember I struggled for hours with this on BST in data structures as well...
-        //WHEN YOU MAKE A NEW INSTANCE, MAKE ALL THE STUFF NULL!!!!!!!!!!!!!!! DONT FORGET!!!!!
-      
-        //super();
+
       	this.state1 = null; //this is the parent
         this.op = null; //this is the operation
       	this.pathLength = 0; //a new instance has not moved yet
