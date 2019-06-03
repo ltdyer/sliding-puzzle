@@ -195,6 +195,8 @@ public class SimplePuzzleState implements PuzzleState {
 	      newTableOfValues[row+1][column] = newTableOfValues[row][column];
 	      newTableOfValues[row][column] = 0;
 	  }
+	  else
+		  return null;
 	  
       //gotta return a new SimplePuzzleState with the updated moves
       //make this as the parent because this current state before we return will soon be the parent of the new SimplePuzzleState
